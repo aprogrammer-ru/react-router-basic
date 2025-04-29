@@ -15,7 +15,7 @@ const Main: React.FC = () => {
 
 // Компонент для страницы пользователя
 const User: React.FC = () => {
-  const { id } = useParams<{ id: string }>(); // Извлекаем параметр id из URL с помощью хука useParams
+  const { id, name } = useParams<{ id: string, name:string }>(); // Извлекаем параметр id из URL с помощью хука useParams
   return <div className='page'>
     <h3>Пользователь с ID: {id}</h3>
     <b>Детали пользователя {id}</b>

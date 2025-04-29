@@ -17,8 +17,6 @@ const About: React.FC = () => {
   return <div className="page"><h2>Тема занятия:</h2><div>Изучаем React Router</div></div>;
 };
 
-
-
 // Основной компонент приложения
 const BasicApp: React.FC = () => {
   return (
